@@ -55,3 +55,11 @@ repos:
 #             entry: poetry run pytest --cov --cov-fail-under=0 --cov-report term-missing
 #             types: [python]
 #             pass_filenames: false
+    - repo: local
+      hooks:
+          - id: single-sources-of-truth
+            name: Update single sources of truth
+            stages: [commit]
+            language: system
+            entry: poetry run python ssot.py
+            pass_filenames: false
