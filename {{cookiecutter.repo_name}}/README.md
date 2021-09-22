@@ -10,30 +10,19 @@
 
 ---
 
-[Installation](#installation) |
 [Usage](#usage) |
-[Configuration](#configuration) |
-[Roadmap](#roadmap) |
 [License](#license)
 
 ---
 
-## Installation
-
 ## Usage
-
-## Configuration
-
-## Roadmap
 
 ## License
 
 Licensed under the [Apache 2.0 license][license file].
 
-[repo url]: ...
-[pypi url]: https://pypi.org/project/radiocc
-[pre-commit file]: .../.pre-commit-config.yaml
-[license file]: .../LICENSE
+[pre-commit file]: ./.pre-commit-config.yaml
+[license file]: ./LICENSE
 [license badge]: https://img.shields.io/badge/License-Apache%202.0-blue.svg
 [coverage badge]: https://img.shields.io/badge/coverage-0%25-red
 [coverage url]: https://github.com/pytest-dev/pytest-cov

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 """
-Goniometer.
+{{cookiecutter.project_name}}.
 """
 
 from pathlib import Path  # noqa: F401
@@ -11,6 +11,7 @@ import ruamel.yaml  # noqa: F401
 from dotmap import DotMap  # noqa: F401
 from pudb import set_trace as bp  # noqa: F401
 
+VERSION = "0.1.0"
 CONFIG_FILE = Path("config.yaml")
 
 
