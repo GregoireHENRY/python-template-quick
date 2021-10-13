@@ -65,11 +65,11 @@ repos:
             entry: black .
             types: [python]
             pass_filenames: false
-          - id: pytest-cov
-            name: Launch tests with Pytest
-            stages: [commit]
-            language: system
-            entry: poetry run pytest --cov --cov-fail-under=0 --cov-report term-missing
-            types: [python]
-            pass_filenames: false
+          #   - id: pytest-cov
+          #     name: Launch tests with Pytest
+          #     stages: [commit]
+          #     language: system
+          #     entry: poetry run pytest --cov --cov-fail-under=0 --cov-report term-missing
+          #     types: [python]
+          #     pass_filenames: false
 # exclude: ^...
